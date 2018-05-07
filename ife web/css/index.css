@@ -1,0 +1,261 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+a {
+	text-decoration: none;
+}
+li {
+	list-style: none;
+}
+.clearfix:after {
+	content: "";
+	height: 0;
+	display: block;
+	visibility: hidden;
+	clear: both;
+}
+/*banner*/
+.banner {
+	background-image: url(../images/000.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.banner .container {
+	width: 75%;
+	height: 100%;
+	margin: 0 auto;
+	padding: 5em 0;
+}
+.banner-top h1 {
+	margin-bottom: 80px;
+	text-align: center;
+	font-size: 3em;
+	color: #fff;
+}
+.banner-top p {
+	width: 75%;
+	text-align: center;
+	font-size: 1em;
+	color: #fff;
+	opacity: 0.6;
+	margin: 0 auto;
+	margin-bottom: 100px;
+}
+.banner-bottom {
+	margin-top: 30px;
+	text-align: center;
+	border: 1px solid rgba(255,255,255,0.2);
+}
+.banner-bottom h2 {
+	text-transform: uppercase;
+	margin-top: 60px;
+	font-size: 1em;
+	color: #fff;
+	opacity: 0.8;
+}
+.banner-bottom p {
+	text-transform: uppercase;
+	font-size: 0.8em;
+	color: #fff;
+	opacity: 0.6;
+}
+.sign {
+	margin: 40px 0;
+}
+.sign .log {
+	color: #fff;
+	width: 30%;
+	padding: 20px 0;
+	background-color: transparent;;
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.2);
+}
+.sign button {
+	width: 13%;
+    padding: 20px 0;
+    border: 1px solid rgba(255,255,255,0.2);
+    background-color: transparent;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+}
+.sign button:hover {
+	color: #000;
+	background-color: #fff;
+}
+/*part1*/
+.part1 .container {
+	width: 75%;
+	margin: 0 auto;
+}
+.part1-top {
+	text-align: center;
+	margin-bottom: 2em;
+}
+.part1-top p {
+	opacity: 0.6;
+	margin-top: 4em;
+	margin-bottom: 2em;
+}
+.part1-bottom .top {
+	display: flex;
+	margin-bottom: 3em;
+}
+.part1-bottom .top .left {
+	display: flex;
+	flex: 1;
+}
+.part1-bottom .top .right {
+	display: flex;
+	flex: 1;
+}
+.part1-bottom .bottom {
+	display: flex;
+	margin-bottom: 5em;
+}
+.part1-bottom .bottom .left  {
+	display: flex;
+	flex: 1;
+}
+.part1-bottom .bottom .right {
+	display: flex;
+	flex: 1;
+}
+/*part2*/
+.part2 {
+	background-image: url(../images/005.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.part2 .container {
+	width: 75%;
+	margin: 0 auto;
+}
+.part2 .top {
+    width: 38%;
+    padding-top: 10em;
+    margin-bottom: 2em;
+}
+.part2 .top h1 {
+	font-size: 2em;
+	color: #fff;
+	margin-bottom: 1.5em;
+}
+.part2 .top p {
+	width: 90%;
+    font-size: 0.9em;
+    color: #fff;
+    opacity: 0.6;
+}
+.part2 .bottom {
+	width: 60%;
+	padding-bottom: 6em;
+}
+.part2 .bottom button {
+	width: 45%;
+	letter-spacing: 2px;
+	color: #fff;
+	padding: 1em;
+	background-color: transparent;
+	border: 1px solid rgba(255,255,255,0.2);
+}
+.part2 .bottom button:hover {
+	color: #000;
+	background-color: #fff;
+}
+/*part3*/
+.part3 .container {
+	width: 75%;
+	margin: 0 auto;
+}
+.part3 h1 {
+	text-align: center;
+	font-size: 2em;
+	margin-top: 3em;
+}
+.part3 .bottom {
+	display: flex;
+	/*分配多余margin*/
+	justify-content:space-between;
+	margin: 3em 0;
+}
+.part3 .bottom div {
+    flex-basis: 30%;
+	text-align: center;
+}
+.part3 .bottom div img {
+	margin-bottom: 1em;
+}
+/*part4*/
+.part4 {
+	margin-top: 10em;
+}
+.part4 .container {
+	width: 75%;
+	margin: 0 auto;
+}
+.part4 .container .top {
+	margin-bottom: 3em;
+}
+.part4 .container .top .img {
+	float: left;
+	width: 60%;
+}
+.part4 .container .top img {
+	max-width: 100%;
+}
+.part4 .container .top .cot {
+	float: right;
+	width: 30%;
+}
+.part4 .container .bottom .img {
+	float: right;
+	width: 60%;
+}
+.part4 .container .bottom img {
+	max-width: 100%;
+}
+.part4 .container .bottom .cot {
+	float: left;
+	width: 30%;
+}
+/*part5*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
